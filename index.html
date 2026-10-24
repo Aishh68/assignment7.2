@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7.2 - Pricing Cards & Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Choose Your Plan</h1>
+        <p>Simple pricing plans for everyone.</p>
+    </header>
+
+    <!-- Pricing Cards -->
+    <section class="pricing-container">
+
+        <div class="pricing-card">
+            <h2>Basic</h2>
+            <p class="price">₹199<span>/month</span></p>
+            <ul>
+                <li>✔ 5 Projects</li>
+                <li>✔ Basic Support</li>
+                <li>✔ 5 GB Storage</li>
+                <li>✘ Advanced Features</li>
+            </ul>
+            <button type="button">Choose Basic</button>
+        </div>
+
+        <div class="pricing-card featured">
+            <span class="popular">POPULAR</span>
+            <h2>Pro</h2>
+            <p class="price">₹499<span>/month</span></p>
+            <ul>
+                <li>✔ 20 Projects</li>
+                <li>✔ Priority Support</li>
+                <li>✔ 50 GB Storage</li>
+                <li>✔ Advanced Features</li>
+            </ul>
+            <button type="button">Choose Pro</button>
+        </div>
+
+        <div class="pricing-card">
+            <h2>Premium</h2>
+            <p class="price">₹999<span>/month</span></p>
+            <ul>
+                <li>✔ Unlimited Projects</li>
+                <li>✔ 24/7 Support</li>
+                <li>✔ 200 GB Storage</li>
+                <li>✔ All Features</li>
+            </ul>
+            <button type="button">Choose Premium</button>
+        </div>
+
+    </section>
+
+    <!-- Centered Login Form -->
+    <section class="login-section">
+        <form class="login-form">
+            <h2>Login to Your Account</h2>
+            <p>Welcome back! Please login.</p>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+
+            <p class="signup-text">
+                Don't have an account? <a href="#signup">Sign Up</a>
+            </p>
+        </form>
+    </section>
+
+</body>
+</html>
